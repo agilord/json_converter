@@ -1,3 +1,7 @@
+## 1.0.2
+
+- **Minor breaking change**: Fix typo in API.
+
 ## 1.0.1
 
 - Separate URL-safe constructor for frameworks that doesn't accept parameters in annotations.

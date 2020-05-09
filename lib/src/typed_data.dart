@@ -46,7 +46,7 @@ class Uint8ListListConverter
 
   /// Converts List of bytes to List of BASE64-encoded Strings with the URL-safe
   /// encoder.
-  const Uint8ListListConverter.urlSage() : _codec = base64Url;
+  const Uint8ListListConverter.urlSafe() : _codec = base64Url;
 
   @override
   List<Uint8List> fromJson(List<String> json) {
