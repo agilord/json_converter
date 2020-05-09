@@ -1,6 +1,6 @@
 name: json_converter
 description: JSON converters for package:json_serializable.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/agilord/json_converter
 
 environment:

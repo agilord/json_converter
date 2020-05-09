@@ -13,6 +13,9 @@ class Uint8ListConverter implements JsonConverter<Uint8List, String> {
   const Uint8ListConverter({bool urlSafe})
       : _codec = (urlSafe ?? false) ? base64Url : base64;
 
+  /// Converts bytes to BASE64-encoded String with the URL-safe encoder.
+  const Uint8ListConverter.urlSafe() : _codec = base64Url;
+
   @override
   Uint8List fromJson(String json) {
     if (json != null) {
@@ -40,6 +43,10 @@ class Uint8ListListConverter
   /// Set [urlSafe] to `true` if the encoded value may end up in an URL.
   const Uint8ListListConverter({bool urlSafe})
       : _codec = (urlSafe ?? false) ? base64Url : base64;
+
+  /// Converts List of bytes to List of BASE64-encoded Strings with the URL-safe
+  /// encoder.
+  const Uint8ListListConverter.urlSage() : _codec = base64Url;
 
   @override
   List<Uint8List> fromJson(List<String> json) {
