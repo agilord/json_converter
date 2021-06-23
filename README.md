@@ -1,4 +1,5 @@
-## JSON converters for `package:json_serializable`.
+**JSON converters for [`package:json_serializable`](https://pub.dev/packages/json_serializable).**
 
-- `Uint8ListConverter` (for bytes)
-- `Uint8ListListConverter` (for list of bytes)
+Converters for `Uint8List` (bytes):
+- `Uint8ListBase64Converter` (base64, non-nullable)
+- `NullableUint8ListBase64Converter` (base64, nullable)

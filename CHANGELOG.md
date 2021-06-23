@@ -1,3 +1,10 @@
+## 2.0.0
+
+**BREAKING CHANGES**:
+- `Uint8ListConverter` is non-nullable (use `NullableUint8ListConverter` for nullable fields).
+- removed `Uint8ListListConverter` (class-level annotation should work instead)
+- removed `urlSafe` constructor parameter, use `.urlSafe` constructors if needed.
+
 ## 1.1.0
 
 - Migrated to null safety.
