@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Updated lints.
+
 ## 2.0.0
 
 **BREAKING CHANGES**:
